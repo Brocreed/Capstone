@@ -1,12 +1,53 @@
-.flex {
+header {
   display: flex;
+  align-items: center;
+  padding: 0 24px;
+  height: 64px;
 }
 
-.company {
-  display: inline-flex;
+.logo {
+  display: flex;
   flex-grow: 1;
+  align-items: center;
+  height: 32px;
 }
 
-header li {
-  display: inline;
+nav span {
+  padding: 0 8px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+#banner {
+  background-color: grey;
+  display: flex;
+  height: 500px;
+}
+
+ .container-lg {
+   height: auto;
+   width: 60%;
+   padding: 24px 32px;
+ }
+
+.container-sml {
+  display: flex;
+  width: 40%;
+}
+
+#start {
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#start span {
+  display: flex;
+  justify-content: center;
+  background-color: darkgrey;
+  width: inherit;
+  padding: 8px;
 }
