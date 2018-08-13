@@ -78,12 +78,12 @@ nav a:hover {
 
 .colmar {
   font-weight: bold;
-  color: dimgray;
+  color: #6101AF;
   font-size: 1.2rem;
 }
 
 .academy {
-  color: silver;
+  color: dimgrey;
   font-size: 1.2rem;
 }
 
@@ -154,7 +154,7 @@ nav a:hover {
 /*Banner Section*/
 
 .banner {
-  background-color: #660000;
+  background-color: #6101AF;
 }
 
 .left img {
@@ -411,7 +411,7 @@ nav a:hover {
 /*Courses Section*/
 
 .courses {
-  background-color: #660000;
+  background-color: #6101AF;
 }
 
 .flex {
@@ -430,7 +430,14 @@ nav a:hover {
 
 .subjects {
   height: 375px;
-  width: 400px;
+  width: 30%;
+  margin: 0px 20px;
+  transition: all .5s ease-in 0s;
+}
+
+.subjects:hover {
+  transform: scale(1.1);
+  justify-content: center;
 }
 
 .item {
@@ -472,8 +479,8 @@ nav a:hover {
 }
 
 
-@media only screen and (max-width: 425px) {
-  .courses {
+@media only screen and (max-width: 426px) {
+  .subjects {
     display: none;
   }
 
@@ -481,7 +488,7 @@ nav a:hover {
   .mobile {
     display: block;
     width: 100%;
-    background-color: #660000;
+    background-color: #6101AF;
     padding-bottom: 32px;
 
   }
@@ -560,7 +567,7 @@ footer {
   margin-top: 0px;
   border-top: solid silver 1px;
   padding: 1rem 2rem;
-  background-color: #660000;
+  background-color: #6101AF;
   color: white;
   font-size: 1.1rem;
 }
