@@ -23,133 +23,13 @@ html {
 }
 
 .left {
-  width: 60%;
-}
-
-.right {
   width: 40%;
 }
 
-
-/*Header*/
-
-header {
-  height: 3rem;
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  padding: .5rem .5rem;
-}
-
-nav div {
-  display: flex;
+.right {
+  width: 60%;
   align-items: center;
 }
-
-nav .logo {
-  height: 2.5rem;
-  margin-left: 1.5rem;
-  margin-right: 0;
-}
-
-nav ul {
-  margin-right: 1rem;
-}
-
-nav li {
-  display: inline;
-  padding: 0 1rem;
-  font-size: 1.1rem;
-}
-
-nav a {
-  text-decoration: none;
-}
-
-nav a:hover {
-  color: blue;
-}
-
-.responsive {
-  display: none;
-}
-
-.colmar {
-  font-weight: bold;
-  color: #6101AF;
-  font-size: 1.2rem;
-}
-
-.academy {
-  color: dimgrey;
-  font-size: 1.2rem;
-}
-
-@media only screen and (max-width: 768px) {
-
-  header .logo {
-    display: none;
-  }
-
-  header div span {
-    display: none;
-  }
-
-  .menu {
-    display: none;
-  }
-
-  .responsive {
-    display: block;
-    text-align: center;
-    padding-top: .5rem;
-    width: 100%;
-  }
-
-  nav li {
-    display: inline;
-    padding: 0 3rem;
-  }
-
-  .responsive img {
-    height: 1.4rem;
-  }
-
-}
-
-@media only screen and (max-width: 585px) {
-
-  nav li {
-    padding: 0 1.8rem;
-  }
-}
-
-@media only screen and (max-width: 415px) {
-
-  nav li {
-    padding: 0 1.6rem;
-  }
-
-}
-
-@media only screen and (max-width: 385px) {
-
-  nav li {
-    padding: 0 1.2rem;
-  }
-
-}
-@media only screen and (max-width: 330px) {
-
-  nav li {
-    padding: 0 1rem;
-  }
-
-}
-
-
 
 /*Banner Section*/
 
@@ -157,14 +37,20 @@ nav a:hover {
   background-color: #6101AF;
 }
 
+.left {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  align-items: center;
+}
+
 .left img {
-  width: 100%;
-  padding: 32px 24px 24px 32px;
+  max-width: 50%;
+  padding: 32px 24px 32px 24px;
+  align-items: center;
 }
 
 .banner-text {
   width: 500px;
-  padding-top: 180px;
   padding-left: 24px;
 }
 
@@ -172,7 +58,7 @@ nav a:hover {
   color: white;
   font-weight: bold;
   font-size: 2.6rem;
-  padding-bottom: 48px;
+  padding-bottom: 60px;
 }
 
 .banner-text p {
@@ -181,30 +67,13 @@ nav a:hover {
   padding-bottom: 48px;
 }
 
-.start {
-  text-align: center;
-  height: 50px;
-  width: 225px;
-  background-color: dimgray;
-  border-radius: 35px;
-  padding: 11px;
-}
-
-.start:hover {
-  background-color: blue;
-}
-
-.start-text {
-  color: white;
-  font-size: 1.4rem;
-}
-
 @media only screen and (max-width: 1173px) {
 
   .banner-text {
     width: 400px;
     padding-top: 80px;
     padding-left: 16px;
+    text-align: center;
   }
 
 }
@@ -219,22 +88,12 @@ nav a:hover {
   .banner-text h1 {
     font-size: 2.1rem;
     padding-bottom: 32px;
+    text-align: center;
   }
 
   .banner-text p {
     font-size: 1.1rem;
     padding-bottom: 32px;
-  }
-
-  .start {
-    text-align: center;
-    height: 40px;
-    width: 175px;
-    padding: 9px;
-  }
-
-  .start-text {
-    font-size: 1.2rem;
   }
 
 }
@@ -261,6 +120,7 @@ nav a:hover {
     padding-top: 0px;
     padding-left: 24px;
     margin-bottom: 32px;
+    text-align: center;
   }
   .banner-text h1 {
     font-size: 2.1rem;
@@ -304,11 +164,6 @@ nav a:hover {
 .about {
   background-color: white;
   margin-bottom: 32px;
-}
-
-.left img {
-  width: 100%;
-  padding: 32px 24px 32px 24px;
 }
 
 .text {
